@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+body{
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box{
+  width: 360px;
+  height: 220px;
+  margin-inline: auto;
+  border-radius: 10px;
+  border: rgba(0, 0, 0, 0.349) 2px solid;
+  font-size: 18px;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[type="checkbox"]:hover{
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box2{
+  width: 360px;
+  margin-inline: auto;
+  font-size: 28px;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.inputtext{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.heading{
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.checkbox{
+  height: 20px;
+  width: 20px;
+}
+
+.todoitem{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  align-items: baseline;
+  margin: block 5px;
+}
+.text{
+  margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.btn{
+  background: white;
+  border: none;
+  margin-left: auto;
+  padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover{
+  color: rgba(0, 0, 0, 0.568);
+  cursor: pointer;
+}
+
+input[type= "text"] {
+  outline: none;
+}
+.btnadd{
+  border-radius: 50px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: white;
+  margin-left: 10px;
+}
+
+.btnadd:hover{
+  background: yellow;
+  cursor: pointer;
 }
