@@ -22,6 +22,7 @@ const ToDoItem = (props)=> {
         <div className="todoitem">
             <input type="checkbox" className="checkbox" onClick={hideItem}  />
             <p className="text">{check?  props.text : <strike>{props.text}</strike>}</p>
+            {check ? '' : <p className="completed">Completed</p>}
             <button className="btn"
             onClick={() => {
                 props.onSelect(props.id); // this is for onclick delete button.
