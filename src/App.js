@@ -7,7 +7,7 @@ function App() {
   return (
     
     <>
-    <h1>wow this is my intern pro</h1>
+    <h1>ToDo List Keeper</h1>
     <ToDoList  />
     </>
   );
