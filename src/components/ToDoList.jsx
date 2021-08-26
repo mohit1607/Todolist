@@ -70,9 +70,7 @@ const ToDoList = () => {
         
         </div>
 
-        <div className="box">
-             
-        </div>
+        
         </>
     );
 };
